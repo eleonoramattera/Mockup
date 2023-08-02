@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ion-icon[name="planet-outline"] {
+  font-size: 6em;
+  color: #ff7063;
+}
+ion-icon[name="menu-outline"] {
+  font-size: 2em;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+header div > p {
+  margin-left: 0.5em;
+  font-weight: 700;
+}
+
+/*MAIN*/
+main {
+  width: 100%;
+}
+main section:first-child {
+  display: flex;
+  background-color: #4243e6;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+img {
+  border-radius: 50%;
+  border: 30px solid #ff7063;
+}
+
+main section:first-child div:first-child {
+  position: relative;
+}
+main section:first-child div:first-child > p {
+  width: 200px;
+  height: 200px;
+  background-color: #ff7063;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 30em;
+}
+main section:first-child div:nth-child(2) {
+  position: relative;
+}
+main section:first-child div:nth-child(2) > p:first-child {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #ff7063;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0em;
+  left: 2em;
+}
+
+main section:first-child div:nth-child(2) > div {
+  width: 344px;
+  height: 344px;
+  border-radius: 50%;
+  background-color: #ff7063;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30em;
+  right: 1em;
+}
+
+main section:first-child div:nth-child(2) > div > p {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  border-radius: 16px;
+  border: none;
+  color: #ff7063;
+  font-weight: 700;
+  padding: 0.5em;
+}
+
+main section:nth-child(2) {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10em;
+  color: #4243e6;
+  margin-bottom: 10em;
+}
+
+main section:nth-child(2) div:nth-child(2) {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main section:nth-child(2) div:nth-child(2) > div {
+  text-align: center;
+  margin: 2px;
+  background-color: #ff7063;
+  padding: 1em;
+  color: white;
+}
+
+main section:nth-child(2) div:nth-child(2) > div:nth-child(2) > div {
+  padding: 0;
+}
+
+ion-icon[name="people-outline"],
+ion-icon[name="code-outline"],
+ion-icon[name="globe-outline"],
+ion-icon[name="desktop-outline"] {
+  font-size: 4em;
+  color: white;
+}
+
+main section:nth-child(3) {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10em;
+  background-color: #4243e6;
+  color: white;
+  margin-bottom: 10em;
+}
+h3 {
+  padding: 2em;
+}
+
+main section:nth-child(3) > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main section:nth-child(3) > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2em;
+  border-radius: 10px;
+  background-color: white;
+  color: #4243e6;
+  width: 20%;
+}
+ion-icon[name="location"],
+ion-icon[name="call"],
+ion-icon[name="mail"] {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #ff7063;
+}
+
+form {
+  margin: 3em;
+  padding: 2em;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+form input,
+textarea {
+  margin-bottom: 2em;
+  background: transparent;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  margin-top: 1.5em;
+}
+input:focus-visible,
+textarea {
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+}
