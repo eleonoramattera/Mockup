@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="mockup_pokem.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./assets/logo.png" width="200px" />
+      </header>
+      <main>
+        <section>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="./assets/bulbasaur.webp" style="width: 100%" />
+              <div class="text">BULBASAUR</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./assets/charmender.png" style="width: 100%" />
+              <div class="text">CHARMENDER</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./assets/pikachu.png" style="width: 100%" />
+              <div class="text">PIKACH</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./assets/squirtle.png" style="width: 100%" />
+              <div class="text">SQUIRTLE</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br />
+
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="mockup_pokemon.js"></script>
+  </body>
+</html>
