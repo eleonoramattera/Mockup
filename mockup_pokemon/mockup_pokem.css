@@ -4,8 +4,53 @@ body,
 html {
   font-family: "Oxygen", sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*HEADER*/
+header {
+  height: 20em;
+  background-color: #ffcc00;
+  text-align: center;
+}
+/*FIRST SECTION*/
+main section:first-child {
+  text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
+main section:first-child img {
+  border: 20px solid #ffcc00;
+  margin-top: -4.8em;
+  object-fit: contain;
+}
+
+main section:first-child div:nth-child(2) {
+  height: 50em;
+  width: 50%;
+  margin: auto;
+  background-color: #0069b2;
+  margin-top: -30em;
+}
+
+main section:first-child div:nth-child(3) {
+  height: 18em;
+  width: 50%;
+  margin: auto;
+  color: #ffcc00;
+  margin-top: -18em;
+  padding: 2em;
+}
+button {
+  border: 6px solid #ffcc00;
+  font-family: "Oxygen", sans-serif;
+  background-color: #0069b2;
+  color: #ffcc00;
+  padding: 1.2em;
+}
+
+/**/
 .slideshow-container {
   width: 30%;
   position: relative;
