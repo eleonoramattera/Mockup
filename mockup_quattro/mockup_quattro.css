@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2family=Dosis:wght@400;700&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+}
+
+main div:first-child {
+  height: 50em;
+  background-image: url("./assets/sfondodiv.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+h1 {
+  padding: 2em;
+  font-size: 6em;
+}
+
+main div:nth-child(2) {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.5em;
+  padding-top: 2em;
+}
