@@ -110,6 +110,10 @@ main section:nth-child(5) {
   text-align: center;
 }
 
+h4 {
+  margin-bottom: 2em;
+}
+
 main section:nth-child(5) form {
   display: flex;
   flex-direction: column;
@@ -118,6 +122,7 @@ main section:nth-child(5) form {
   color: #fa8ea1;
   width: 40%;
   margin: auto;
+
   padding: 2em;
 }
 
@@ -138,4 +143,15 @@ button {
 input:focus-visible,
 textarea {
   outline: none;
+}
+
+/*FOOTER*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 2em;
+}
+
+footer p {
+  margin: 0;
 }
