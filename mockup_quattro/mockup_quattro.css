@@ -108,6 +108,7 @@ ion-icon[name="bar-chart-outline"] {
 main section:nth-child(5) {
   background-color: #fa8ea1;
   text-align: center;
+  display: flow-root;
 }
 
 h4 {
@@ -122,7 +123,7 @@ main section:nth-child(5) form {
   color: #fa8ea1;
   width: 40%;
   margin: auto;
-
+  margin-bottom: 2em;
   padding: 2em;
 }
 
@@ -154,4 +155,6 @@ footer {
 
 footer p {
   margin: 0;
+  font-weight: bold;
+  text-align: end;
 }
