@@ -5,6 +5,22 @@ body {
   font-family: "Dosis", sans-serif;
 }
 
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ion-icon[name="logo-linkedin"],
+ion-icon[name="logo-facebook"],
+ion-icon[name="logo-instagram"],
+ion-icon[name="logo-twitter"],
+ion-icon[name="person"] {
+  color: #a163d2;
+  font-size: 2em;
+}
+
+/*MAIN*/
 section {
   display: flex;
   justify-content: space-evenly;
@@ -12,15 +28,7 @@ section {
   margin-top: 4em;
   align-items: flex-start;
 }
-
-ion-icon[name="logo-linkedin"],
-ion-icon[name="logo-facebook"],
-ion-icon[name="logo-instagram"],
-ion-icon[name="logo-twitter"] {
-  color: #a163d2;
-  font-size: 2em;
-}
-
+/*FIRST SECTION */
 main section:first-child > div:first-child {
   border-radius: 0% 86% 14% 18% / 87% 7% 72% 0;
   background: linear-gradient(#a163d2, #a5b4f9);
@@ -28,6 +36,7 @@ main section:first-child > div:first-child {
   color: black;
   padding: 2em;
   box-shadow: 23px 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: justify;
 }
 
 main section:first-child > div:nth-child(2) {
@@ -39,11 +48,8 @@ main section:first-child > div:nth-child(2) {
   color: #a163d2;
   text-align: justify;
 }
-/* main section:first-child img {
-  border-radius: 0 0 0 100px;
-  box-shadow: -20px 19px 12px 0px rgba(0, 0, 0, 0.3);
-} */
 
+/*SECOND SECTION */
 main section:nth-child(2) {
   position: relative;
 }
@@ -69,7 +75,19 @@ main section:nth-child(2) div:nth-child(4) {
   width: 20%;
   color: black;
   padding: 2em;
+  text-align: center;
 }
+main section:nth-child(2) div:nth-child(4) p {
+  text-align: justify;
+}
+main section:nth-child(2) div:nth-child(4) button {
+  background: linear-gradient(#ddc8ec, #fcfcfc);
+  border-radius: 2em;
+  border: 2px solid #a163d2;
+  padding: 1.2em;
+  font-family: inherit;
+}
+
 main section:nth-child(2) div:nth-child(5) {
   width: 60%;
   margin-top: -4.5em;
